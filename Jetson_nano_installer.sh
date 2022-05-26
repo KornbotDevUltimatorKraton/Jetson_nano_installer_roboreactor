@@ -5,7 +5,7 @@ sudo apt-get install python3-pip -y #Installing the pip installer for the python
 sudo apt install build-essential libssl-dev libffi-dev python3-setuptools -y 
 
 sudo pip3 install virtualenv    # Install the virtual environment 
-sudo apt install python3-venv
+sudo apt install python3-venv -y
 sudo apt-get install cmake -y 
 sudo apt-get install curl -y 
 echo 'Git installation'
@@ -296,7 +296,7 @@ sudo apt install certbot python3-certbot-nginx -y
 sudo apt-get update 
 sudo apt-get install certbot -y 
 sudo apt-get install python3-certbot -y
-sudo apt install python3.9-venv -y 
+#sudo apt install python3.9-venv -y 
 
 #sudo cp -R /media/$USER/C8B063EAB063DD86/Websucsmailsend/idatabots -t /var/www/ # Get the directory of the working file
 sudo apt update 
