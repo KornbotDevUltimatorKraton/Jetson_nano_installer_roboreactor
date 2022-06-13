@@ -27,13 +27,13 @@ sudo apt install mesa-utils -y
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 sudo pip3 install smbus  #install the smbus protocol for communication with the sensors onboard on devices or robot automation 
 sudo pip3 install smbus2 #install the smbus2 protocol for the communication with the sensors onboard devices of the robot automation
-sudo pip3 install Adafruit-Blinka
-sudo pip3 install bmp280 #install the bmp280 for the Barometer and temoerature sensor
-sudo pip3 install mpu9250-jmdev # mpu9250 over the i2c devices 
+#sudo pip3 install Adafruit-Blinka
+#sudo pip3 install bmp280 #install the bmp280 for the Barometer and temoerature sensor
+#sudo pip3 install mpu9250-jmdev # mpu9250 over the i2c devices 
 sudo pip3 install pyinstaller # Pyinstaller function of the single execuable file 
-git clone https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect.git MPU9250
-sudo pip3 install adafruit-circuitpython-mpu6050
-sudo pip3 install adafruit-circuitpython-icm20x 
+#git clone https://github.com/Intelligent-Vehicle-Perception/MPU-9250-Sensors-Data-Collect.git MPU9250
+#sudo pip3 install adafruit-circuitpython-mpu6050
+#sudo pip3 install adafruit-circuitpython-icm20x 
 sudo pip3 install imutils 
 sudo pip3 install streamlit
 sudo pip3 install Pynsq 
@@ -162,14 +162,14 @@ sudo pip3 install flask-Login
 sudo pip3 install flask-SQLAlchemy
 sudo pip3 install -U flask-cors
 echo "Payment gateway"
-sudo pip3 install omise #Payment gate way 
-sudo pip3 install paypalrestsdk
-sudo pip3 install paypalhttp
+#sudo pip3 install omise #Payment gate way 
+#sudo pip3 install paypalrestsdk
+#sudo pip3 install paypalhttp
 sudo pip3 install responses
-git clone https://github.com/paypal/Checkout-Python-SDK
-cd ~/Checkout-Python-SDK
-sudo python3 setup.py install 
-cd ~
+#git clone https://github.com/paypal/Checkout-Python-SDK
+#cd ~/Checkout-Python-SDK
+#sudo python3 setup.py install 
+#cd ~
 sudo pip3 install image_slicer
 sudo pip3 install passwordgenerator
 sudo apt-get install sox -y 
@@ -178,9 +178,6 @@ sudo pip3 install wordninja
 sudo pip3 install schema
 echo "Beautiful soup library intallation for the web realtime interface and webscrapping"
 sudo pip3 install beautifulsoup4 
-echo 'Schematics builder'
-sudo pip3 install pyeagle
-sudo pip3 install eagexp
 echo 'Install openssh server'
 sudo apt-get install openssh-server -y  
 echo 'Wifi scanner installer' 
@@ -188,27 +185,22 @@ sudo apt-get install net-tools -y
 sudo apt-get install arp-scan -y
 echo 'Install and setup partition'
 sudo apt-get install gparted -y 
-git clone https://github.com/pallets/click
-cd ~/click
-sudo python3 setup.py install   # install click module at the python3 
 cd ~  # Get inside the click and install the file automatically 
-echo 'Eagleexp github install'
-git clone https://github.com/ponty/eagexp
 echo 'Install the Qt installer opensource software' 
-sudo apt install qtcreator -y 
-sudo apt install build-essentials -y  
-sudo apt install qt5-default -y  
-sudo apt install qt5-doc-html qtbase5-examples -y 
-echo 'Install Pyqt5 and all tools !'
-sudo apt-get install python3-pyqt5 -y 
-sudo apt-get install qtcreator pyqt5-dev-tools -y 
-sudo apt install python3-pyqt5.qtsvg -y 
-sudo apt-get install python3-pyqt5 -y   
-sudo apt-get install pyqt5-dev-tools -y
+#sudo apt install qtcreator -y 
+#sudo apt install build-essentials -y  
+#sudo apt install qt5-default -y  
+#sudo apt install qt5-doc-html qtbase5-examples -y 
+#echo 'Install Pyqt5 and all tools !'
+#sudo apt-get install python3-pyqt5 -y 
+#sudo apt-get install qtcreator pyqt5-dev-tools -y 
+#sudo apt install python3-pyqt5.qtsvg -y 
+#sudo apt-get install python3-pyqt5 -y   
+#sudo apt-get install pyqt5-dev-tools -y
 
-sudo apt-get install qttools5-dev-tools -y 
-sudo pip3 install pyqtgraph 
-sudo apt-get install --upgrade python3-pyside2.qt3dcore python3-pyside2.qt3dinput python3-pyside2.qt3dlogic python3-pyside2.qt3drender python3-pyside2.qtcharts python3-pyside2.qtconcurrent python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qthelp python3-pyside2.qtlocation python3-pyside2.qtmultimedia python3-pyside2.qtmultimediawidgets python3-pyside2.qtnetwork python3-pyside2.qtopengl python3-pyside2.qtpositioning python3-pyside2.qtprintsupport python3-pyside2.qtqml python3-pyside2.qtquick python3-pyside2.qtquickwidgets python3-pyside2.qtscript python3-pyside2.qtscripttools python3-pyside2.qtsensors python3-pyside2.qtsql python3-pyside2.qtsvg python3-pyside2.qttest python3-pyside2.qttexttospeech python3-pyside2.qtuitools python3-pyside2.qtwebchannel python3-pyside2.qtwebsockets python3-pyside2.qtwidgets python3-pyside2.qtx11extras python3-pyside2.qtxml python3-pyside2.qtxmlpatterns
+#sudo apt-get install qttools5-dev-tools -y 
+#sudo pip3 install pyqtgraph 
+#sudo apt-get install --upgrade python3-pyside2.qt3dcore python3-pyside2.qt3dinput python3-pyside2.qt3dlogic python3-pyside2.qt3drender python3-pyside2.qtcharts python3-pyside2.qtconcurrent python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qthelp python3-pyside2.qtlocation python3-pyside2.qtmultimedia python3-pyside2.qtmultimediawidgets python3-pyside2.qtnetwork python3-pyside2.qtopengl python3-pyside2.qtpositioning python3-pyside2.qtprintsupport python3-pyside2.qtqml python3-pyside2.qtquick python3-pyside2.qtquickwidgets python3-pyside2.qtscript python3-pyside2.qtscripttools python3-pyside2.qtsensors python3-pyside2.qtsql python3-pyside2.qtsvg python3-pyside2.qttest python3-pyside2.qttexttospeech python3-pyside2.qtuitools python3-pyside2.qtwebchannel python3-pyside2.qtwebsockets python3-pyside2.qtwidgets python3-pyside2.qtx11extras python3-pyside2.qtxml python3-pyside2.qtxmlpatterns
 
 sudo pip3 install pyvistaqt 
 sudo pip3 install qtpy
